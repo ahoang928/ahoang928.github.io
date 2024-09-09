@@ -1,9 +1,33 @@
 body
 {
     margin: 0;
+    font-family: sans-serif, Arial, Helvetica;
 }
 
 nav
 {
-    background-color: #e8d5ed;
+    background-color: #4d4953;
+    padding: 1.5rem 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pnav, .contact
+{
+    color: white;
+    margin: 0rem 0rem;
+    font-size: 1.2rem;
+}
+
+.contact
+{
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+.contact:hover
+{
+    color: rgb(226, 176, 211);
+    text-decoration: underline;
+    text-decoration-color: rgb(226, 176, 211);
 }
