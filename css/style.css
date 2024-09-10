@@ -10,19 +10,73 @@ nav
     padding: 1.5rem 1rem;
     display: flex;
     justify-content: space-between;
+    position: relative;
+    box-shadow: 0 0.1rem 0.2rem 0 rgba(0, 0, 0, 0.2);
 }
 
-.pnav, .contact
+h1
+{
+    font-family: "Beiruti", sans-serif;
+    color: #2e2d30;
+    margin: 0;
+    font-size: 4rem;
+}
+
+h2
+{
+    font-family: "Beiruti", sans-serif;
+    color: #2e2d30;
+    font-size: 2rem;
+}
+
+.splash img
+{
+    margin: 2rem;
+    height: 20rem;
+    width: auto;
+    border-radius: 1rem;
+    border-style:dotted ;
+    border-color:  #2e2d30;
+    box-shadow: 0 0.1rem 0.2rem 0 rgba(0, 0, 0, 0.2);
+}
+
+.splash > p
+{
+    font-family: "Maname", sans-serif, Arial, Helvetica;
+    color: #2e2d30;
+    font-size: 1.5rem;
+}
+
+.splash p:first-of-type
+{
+    font-style: italic;
+}
+
+.splash
+{
+    background-color: #e0d9e2;
+    padding: 1rem;
+    text-align: center;
+}
+
+.pnav, .contact, footer p
 {
     color: white;
     margin: 0rem 0rem;
     font-size: 1.2rem;
+    font-family: "Playwrite AU NSW";
+    font-weight: 400;
+    font-weight: 2rem;
+}
+
+footer p
+{
+    margin: 0rem 1rem;
 }
 
 .contact
 {
-    text-decoration: underline;
-    text-decoration-color: white;
+    text-decoration: none;
 }
 
 .contact:hover
@@ -30,4 +84,38 @@ nav
     color: rgb(226, 176, 211);
     text-decoration: underline;
     text-decoration-color: rgb(226, 176, 211);
+}
+
+footer
+{
+    background-color: #8a878d;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+hr
+{
+    margin: auto;
+    border-color: #4d4953;
+    border-bottom: 1px dashed ;
+}
+
+.edu, .honors, .skills, .leadership, .projects
+{
+    margin: 2rem 4rem;
+    border-bottom: solid;
+    box-shadow: 0 0.4rem 0.2rem -0.2rem rgba(0, 0, 0, 0.2);
+}
+
+.honors dl
+{
+    display: grid;
+    gap: 4px; 
+    grid-template-columns: 1fr auto;
+}
+
+.honors dd
+{
+    font-style: italic;
 }
